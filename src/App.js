@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Board from './components/Board';
+import History from './components/History';
 import { calculateWinner } from './helpers';
 
 import './styles/root.scss';
@@ -11,7 +12,7 @@ const App = () => {
       isXNext: true,
     },
   ]);
-  const { currentMove, setCurrentMove } = useState(0);
+  const [currentMove, setCurrentMove] = useState(0);
 
   const current = history[currentMove];
 
@@ -46,6 +47,7 @@ const App = () => {
       <h1>TIC TAC TOE</h1>
       <h2>{message}</h2>
       <Board board={current.board} handleSquareClick={handleSquareClick} />
+      <History />
     </div>
   );
 };
