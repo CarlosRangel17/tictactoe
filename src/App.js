@@ -18,7 +18,6 @@ const App = () => {
   const [currentMove, setCurrentMove] = useState(0);
 
   const current = history[currentMove];
-
   const { winner, winningSquares } = calculateWinner(current.board);
 
   const handleSquareClick = position => {
