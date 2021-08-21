@@ -41,4 +41,4 @@ var r=require("./arrayWithHoles"),e=require("./iterableToArrayLimit"),t=require(
 },{"@babel/runtime/helpers/slicedToArray":"xw6J","react":"HdMw","./components/Board":"U8EI","./components/History":"Mmab","./components/StatusMessage":"ytHA","./helpers":"s49y","./styles/root.scss":"QpDa"}],"H99C":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom")),t=u(require("./App"));function u(e){return e&&e.__esModule?e:{default:e}}r.default.render(e.default.createElement(t.default,null),document.getElementById("root"));
 },{"react":"HdMw","react-dom":"X9zx","./App":"FLHj"}]},{},["H99C"], null)
-//# sourceMappingURL=src.71c68754.js.map
+//# sourceMappingURL=src.e8f799ca.js.map
